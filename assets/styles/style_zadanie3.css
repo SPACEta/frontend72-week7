@@ -1,29 +1,12 @@
 .container {
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: 50px 50px;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
 }
 
-.content_image1 {
-    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
-}
-
-.content_image2 {
-    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
-}
-
-.content_image3 {
-    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
-}
-
-.content_image4 {
-    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
-}
-
-.content_image5 {
-    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
-}
-
-.content_image6 {
-    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
