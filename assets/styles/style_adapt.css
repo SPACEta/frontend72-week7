@@ -99,17 +99,26 @@
     padding: 5%;
 }
 
-@media (max-width: 600px) {
-    #sidebar {display: none;}
+@media screen and (max-width: 400px) {
+    .footer {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 700px) {
-	footer {
-        font-size:80%;
+@media screen and (min-width: 700px) {
+	.footer,
+    .header {
+        font-size: 90%;
+        color: red;
 	}
 }
+/* для таких экранов, как, например, Galaxy Tab S4 */
 
-@media screen and (max-width: 900px) {
-	footer {
-        font-size:90%;
+@media screen and (min-width: 1000px) {
+	.footer,
+    .header {
+        font-size: 150%;
+        color: blue;
 	}
+}
+/* для таких экранов, как, например, Nest Hub Max */
