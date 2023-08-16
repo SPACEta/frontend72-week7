@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+
+.content_image1 {
+    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+}
+
+.content_image2 {
+    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+}
+
+.content_image3 {
+    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+}
+
+.content_image4 {
+    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+}
+
+.content_image5 {
+    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+}
+
+.content_image6 {
+    background-image: url(https://www.purina.ru/sites/default/files/2021-10/britanskaya-3.jpg);
+}
