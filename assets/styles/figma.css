@@ -1,9 +1,9 @@
-body {
-    width: 99%;
-}
-
 html{
     font-size:90%; 
+}
+
+body {
+    width: 98%;
 }
 
 .button,
@@ -300,16 +300,16 @@ header {
 
 @media (min-width: 10px) and (max-width: 400px)  {
     .preview_image {
-        display: none;
+
     }
     html {
-        font-size:10%;
+        font-size:25%;
     }
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
     html {
-        font-size:50%;
+        font-size:45%;
     }
 }
 
